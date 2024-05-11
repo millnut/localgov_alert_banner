@@ -1,7 +1,6 @@
 name: Test localgovdrupal drupal-module
 
 on:
-  push:
   workflow_dispatch:
 
 jobs:
