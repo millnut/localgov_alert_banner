@@ -8,5 +8,5 @@ jobs:
   tests:
     uses: millnut/localgov_shared_workflows/.github/workflows/test.yml@main
     with:
-      project: 'localgovdrupal/localgov_alert_banner'
+      project: 'millnut/localgov_alert_banner'
       project_path: 'web/modules/contrib/localgov_alert_banner'
