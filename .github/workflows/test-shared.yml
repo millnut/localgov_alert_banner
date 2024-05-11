@@ -1,0 +1,9 @@
+name: Test localgovdrupal drupal-module
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  call-echo-workflow:
+    uses: millnut/localgov_shared_workflows/.github/workflows/test.yaml@main
