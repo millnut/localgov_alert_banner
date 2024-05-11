@@ -1,6 +1,8 @@
 name: Test localgovdrupal drupal-module
 
-on: workflow_dispatch
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   call-test-workflow:
