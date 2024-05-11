@@ -5,5 +5,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-echo-workflow:
+  call-test-workflow:
     uses: millnut/localgov_shared_workflows/.github/workflows/test.yaml@main
